@@ -19,8 +19,8 @@ from selenium.webdriver.support import expected_conditions as EC
 audioToTextDelay = 10
 delayTime = 2
 audioFile = "\\payload.mp3"
-urlLogin = 'https://woiden.id/login'
-urlExtendRenew = 'https://woiden.id/vps-renew/'
+urlLogin = 'https://hax.co.id/login'
+urlExtendRenew = 'https://hax.co.id/vps-renew/'
 SpeechToTextURL = 'https://speech-to-text-demo.ng.bluemix.net/'
 
 # secret
@@ -264,7 +264,7 @@ if __name__ == '__main__':
     # input web address
     print('fill web address')
     # print(driver.find_elements(By.TAG_NAME, "body")[0].text)
-    driver.find_element(By.XPATH, '//*[@id="web_address"]').send_keys('woiden.id')
+    driver.find_element(By.XPATH, '//*[@id="web_address"]').send_keys('hax.co.id')
     # captcha
     print('do CAPTCHA')
     driver.find_element(By.XPATH, '//*[@id="captcha"]').send_keys(CAPTCHA())
